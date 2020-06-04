@@ -52,9 +52,12 @@
         <activity android:name=".ChatActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"></activity>
+<<<<<<< HEAD
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+=======
+>>>>>>> update1
     </application>
 </manifest>
