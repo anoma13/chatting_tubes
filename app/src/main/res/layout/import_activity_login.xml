@@ -29,6 +29,15 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="11dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:gravity="center"
+                android:text="Lee Chat"
+                android:textColor="#F60214"
+                android:textSize="35sp"></TextView>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
@@ -37,9 +46,9 @@
                 android:id="@+id/editText1">
 
                 <EditText
-                    android:backgroundTint="#fff"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#fff"
                     android:drawableTint="#fff"
                     android:hint="Email Address"
                     android:inputType="textEmailAddress"
@@ -124,8 +133,8 @@
 
     <ImageButton
         android:id="@+id/user_profile_photo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="459px"
+        android:layout_height="322px"
         android:layout_marginTop="64dp"
         android:background="@drawable/logo1"
         android:elevation="4dp"
