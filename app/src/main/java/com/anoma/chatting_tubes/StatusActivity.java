@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -47,6 +48,7 @@ public class StatusActivity extends AppCompatActivity {
         //-----ADDING PREVIOUS STATUS AS DEFAULT-----
         String currentStatus=getIntent().getStringExtra("current_status");
         mTextInputLayout.getEditText().setText(currentStatus);
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
     }
     public void buttonIsClicked(View view){
 

@@ -36,7 +36,9 @@
                 android:gravity="center"
                 android:text="Lee Chat"
                 android:textColor="#F60214"
-                android:textSize="35sp"></TextView>
+                android:textSize="35sp">
+
+            </TextView>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="50dp"
@@ -46,9 +48,9 @@
                 android:id="@+id/editText1">
 
                 <EditText
+                    android:backgroundTint="#fff"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#fff"
                     android:drawableTint="#fff"
                     android:hint="Email Address"
                     android:inputType="textEmailAddress"
