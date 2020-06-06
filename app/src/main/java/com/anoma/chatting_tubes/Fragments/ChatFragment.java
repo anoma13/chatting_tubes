@@ -1,8 +1,4 @@
 package com.anoma.chatting_tubes.Fragments;
-/*
-    THIS IS CHAT FRAGMENT ---- IN THIS FRAGMENT YOU WILL GET THE DETAILS OF CHATS WITH ALL FRIENDS.----
-    THIS FRAGMENT CONTAINS A RECYCLERVIEW----
- */
 
 import android.content.Context;
 import android.content.Intent;
@@ -33,10 +29,7 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class ChatFragment extends Fragment {
+c class ChatFragment extends Fragment {
 
     private RecyclerView mConvList;
 

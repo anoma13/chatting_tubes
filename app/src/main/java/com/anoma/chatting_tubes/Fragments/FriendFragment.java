@@ -1,7 +1,5 @@
 package com.anoma.chatting_tubes.Fragments;
-/*
-    IN THIS FRAGMENT A RECYCLER VIEW HOLDS THE DETAILS OF ALL FRIENDS
- */
+
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,10 +29,6 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * A simple {@link Fragment} subclass.
- *  IN THIS FRAGMENT A RECYCLER VIEW HOLDS THE DETAILS OF ALL FRIENDS
- */
 public class FriendFragment extends Fragment {
 
     private RecyclerView mFriendsList;
