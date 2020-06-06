@@ -29,7 +29,10 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-c class ChatFragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class ChatFragment extends Fragment {
 
     private RecyclerView mConvList;
 
